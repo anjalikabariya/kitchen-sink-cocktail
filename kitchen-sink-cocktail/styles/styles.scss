@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #f27980;
+    width: 100%;
+    &__nav {
+        color: black;
+        height: 150px;
+    }
+    &__nav-image {
+        width: 150px;
+        height: 150px;
+    }
+}
+main {
+    background-image: url(/assets/images/heroimage.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(40%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+.random-drink {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+    // height: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.20);
+    background-color: #fcefed;
+    padding: 10px 20px;
+    margin-right: 50px;
+    &__title {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    &__image {
+        width: 175px;
+        height: 175px;
+        margin-top: 20px;
+    }
+    &__button {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+        background-color: black;
+        height: 40px;
+        border: solid 1px grey;
+        border-radius: 5px;
+        &:hover {
+            background-color: white;
+            color: black;
+        }
+    }
+    &__recipe-name {
+        margin-top: 20px;
+        font-weight: 500;
+    }
+    &__list {
+        margin-top: 10px;
+        text-align: left;
+        font-size: 16px;
+        list-style-type: none;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        &-item {
+            padding: 2px 0;
+        }
+    }
+    &__recipe-steps {
+        margin-bottom: 20px;
+    }
+    &__recipe-title {
+        padding: 20px 0;
+    }
+    &__subtitles {
+        margin-bottom: 20px;
+    }
+}
+// .form-card {
+//     display: flex;
+//     flex-direction: column;
+//     text-align: center;
+//     justify-content: center;
+//     width: 280px;
+//     height: 400px;
+//     border: 1px solid rgba(0, 0, 0, 0.20);
+//     border-radius: 5px;
+//     box-shadow: 0 4px 4px rgba(0,0,0,0.20);
+//     background-color: #fcefed;
+//     padding: 10px 20px;
+//     &__form {
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: space-around;
+//     }
+//     &__label {
+//         margin-bottom: 30px;
+//         font-size: 20px;
+//         font-weight: 500;
+//         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+//     }
+//     &__select {
+//         height: 40px;
+//         margin-bottom: 30px;
+//         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+//     }
+//     &__button {
+//         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+//         color: white;
+//         background-color: black;
+//         height: 40px;
+//         border: none;
+//         border: solid 1px grey;
+//         &:hover {
+//             background-color: white;
+//             color: black;
+//         }
+//     }
+// }
